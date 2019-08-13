@@ -1,28 +1,50 @@
 .App {
   text-align: center;
+  /* justify-content: space-between; */
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /* align-items: stretch; */
+}
+.content {
+  flex: auto;
+  flex-basis: 87vh;
 }
 
 .Navbar {
   background-color: darkslategrey;
-  height: 10vh;
+  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 0% 0% 10% 10%;
 }
 
-.Navbar h4 {
-  padding: 6px;
+.Navbar h2 {
+  padding: 8px;
   color: tomato;
+  box-shadow: 4px 4px 4px #d9dd92;
 }
 
 .Navbar a {
   text-decoration: none;
   color: tomato;
-  padding: 10px;
+  padding: 8px;
 }
 
 a.active {
-  color: yellow;
+  color: #d9dd92;
   text-decoration: underline;
+}
+
+.footer {
+  background-color: darkslategrey;
+  border-radius: 10% 10% 0% 0%;
+  flex-shrink: 0;
+  height: 5vh;
+  padding-bottom: 10px;
 }

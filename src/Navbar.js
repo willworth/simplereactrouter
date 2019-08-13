@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <div className="Navbar">
-      <h4>This is the simplereactrouter app.</h4>
+      <h2>SimpleReactRouter</h2>
       <nav>
         <NavLink exact activeClassName="active" to="/">
           {" "}
